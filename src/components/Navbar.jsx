@@ -52,8 +52,8 @@ const Navbar = () => {
                 <a href={`#${link.id}`}>{link.title}</a>
               </li>
               ))}
-          </ul> 
-       <div  className = 'sm:hidden flex flex-1 justify-end items-center'>
+          </ul> */}
+{/*           <div  className = 'sm:hidden flex flex-1 justify-end items-center'>
             <img 
               src={toggle ? close : menu}
               alt='menu'
@@ -74,9 +74,9 @@ const Navbar = () => {
               </li>
               ))}
         </ul>
-      </div>
+      </div> */}
      
-     </div>
+    // </div>
     </div>
     </nav>
   )
