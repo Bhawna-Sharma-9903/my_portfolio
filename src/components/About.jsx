@@ -42,7 +42,7 @@ const ServiceCard = ({index,title,icon}) => {
 
 const About = () => {
   return (
-    <section 
+    <section id='about' 
     // style={{backgroundImage:`url(${dots})`}}
       // style={{backgroundColor:'#0e0c0c'}}
     >
