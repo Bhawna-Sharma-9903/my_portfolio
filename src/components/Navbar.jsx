@@ -45,15 +45,15 @@ const Navbar = () => {
           </p>
           </Link>
           <ul className='list-none hidden sm:flex flex-row gap-10'>
-            {navLinks.map((nav) => (
-              <li key={nav.id} 
-                  className={`${active === nav.title ? "text-white" : "text-secondary"} hover: text-white text-[18px] font-medium cursor-pointer`}
-                  onClick={()=> setActive(nav.title)}>
-                <a href={`#${nav.id}`}>{nav.title}</a>
+            {navLinks.map((link) => (
+              <li key={link.id} 
+                  className={`${active === link.title ? "text-white" : "text-secondary"} hover: text-white text-[18px] font-medium cursor-pointer`}
+                  onClick={()=> setActive(link.title)}>
+                <a href={`#${link.id}`}>{link.title}</a>
               </li>
               ))}
-          </ul>
-          <div  className = 'sm:hidden flex flex-1 justify-end items-center'>
+          </ul> */}
+{/*           <div  className = 'sm:hidden flex flex-1 justify-end items-center'>
             <img 
               src={toggle ? close : menu}
               alt='menu'
@@ -74,12 +74,12 @@ const Navbar = () => {
               </li>
               ))}
         </ul>
-      </div>
+      </div> */}
      
-    </div>
+    // </div>
     </div>
     </nav>
   )
 }
 
-export default Navbar;
+export default Navbar
