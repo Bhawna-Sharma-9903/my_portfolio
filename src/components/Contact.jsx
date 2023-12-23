@@ -85,7 +85,7 @@ const Contact = () => {
               value = {form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
+              className='bg-[#12191b] py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
           />
         </label>
         <label className='flex flex-col'>
@@ -96,7 +96,7 @@ const Contact = () => {
               value = {form.email}
               onChange={handleChange}
               placeholder="What's your email?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
+              className='bg-[#12191b] py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
           />
         </label>
         <label className='flex flex-col'>
@@ -107,12 +107,12 @@ const Contact = () => {
               value = {form.message}
               onChange={handleChange}
               placeholder="What do you want to say?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
+              className='bg-[#12191b] py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
           />
         </label>
         <button
           type='submit'
-          className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-gray-700 rounded-xl'
+          className='bg-[#368f9b] py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-gray-700 rounded-xl'
         >
             {loading? 'Sending...':'Send'}
         </button>
